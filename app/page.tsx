@@ -1,6 +1,5 @@
-import Button from "@/components/Button";
-import AccessMenu from "@/components/home/AccessMenu";
-import Illustration from "@/components/home/Illustration";
+import AccessMenu from "components/home/AccessMenu";
+import Illustration from "components/home/Illustration";
 
 export default function Home() {
   return (

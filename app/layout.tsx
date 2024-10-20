@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 
 import "./globals.css";
-import PrelineScript from "@/components/PrelineScript";
-import Navbar from "@/components/Navbar";
+import PrelineScript from "components/PrelineScript";
+import Navbar from "components/Navbar";
 
 export const metadata: Metadata = {
   title: "Welcomely",
@@ -18,9 +18,7 @@ export default function RootLayout({
     <html lang="en">
       <body suppressHydrationWarning={true}>
         <Navbar />
-        <main className="relative overflow-hidden container max-w-[90rem] mx-auto px-4">
-          {children}
-        </main>
+        <main className="relative overflow-hidden">{children}</main>
       </body>
 
       <PrelineScript />

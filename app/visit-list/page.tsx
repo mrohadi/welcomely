@@ -1,4 +1,4 @@
-import Ticket from "@/components/Ticket";
+import Ticket from "components/Ticket";
 
 export default function Page() {
   const list = [];
